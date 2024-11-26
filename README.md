@@ -1,42 +1,46 @@
-<h2 align="center"> On Road Object Importance Estimation A New Dataset and A Model with Multi-Fold Top-Down Guidance</a></h2>
-<h4 align="center" color="A0A0A0"> Zhixiong Nan, Yilong Chen, Tianfei Zhou, Tao Xiang</h4>
+<h2 align="center"> FBLNet: FeedBack Loop Network for Driver Attention Prediction</a></h2>
+<h4 align="center" color="A0A0A0"> Yilong Chen, Zhixiong Nan, Tao Xiang</h4>
 <h5 align="center"> If you like our project, please give us a star ⭐ on GitHub for the latest update.</h5>
 
 <div align="center">
 
-[![github](https://img.shields.io/badge/-Github-black?logo=github)](https://github.com/CQU-ADHRI-Lab/TOI)
-[![License](https://img.shields.io/badge/Code%20License-Apache2.0-yellow)](https://github.com/CQU-ADHRI-Lab/TOI/blob/main/LICENSE)
+[![arXiv](https://img.shields.io/badge/Arxiv-2212.02096-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2212.02096)
+[![github](https://img.shields.io/badge/-Github-black?logo=github)](https://github.com/CQU-ADHRI-Lab/FBLNet)
+[![License](https://img.shields.io/badge/Code%20License-Apache2.0-yellow)](https://github.com/CQU-ADHRI-Lab/FBLNet/blob/main/LICENSE)
 <img src="figures/results.gif" width="960px">
 </div>
 
 
-# Multi-Fold Top-Down Guidance Estimation Model
+# FBLNet model
 
-This is the official implementation of the paper "On Road Object Importance Estimation A New Dataset and A Model with Multi-Fold Top-Down Guidance".
+This is the official implementation of the paper "FBLNet: FeedBack Loop Network for Driver Attention Prediction".
 
 <div align="center">
   <img src="figures/framework.png"/>
 </div><br/>
 
 
-This is the comparison results on TOI and [Ohn-Bar](https://github.com/eshed1/Object_Importance) datasets.
+This is the comparison results on [BDDA](https://github.com/pascalxia/driver_attention_prediction) and [DADA](https://github.com/JWFangit/LOTVS-DADA) datasets.
 
 <div align="center">
   <img src="figures/results.png"/>
 </div><br/>
 
 ## Update
-[2024/9] TOI has been accepted at NeurIPS 2024 as a poster!
+The code for DI-MaskSINO will be released here.
 
-## Traffic Object Importance (TOI) Dataset
-### Folder Description: <br>
-The object importance annotation results of TOI are located in the "annotation" folder. There are a total of 28 txt files, which correspond to the annotations of 28 videos. The filenames correspond to the raw data in the KITTI official dataset.
+[2023/7] FBLNet has been accepted at ICCV 2023 as a poster!
 
-### To Do: <br>
-To use these annotations, you need to download the Raw Data from the [KITTI](https://www.cvlibs.net/datasets/kitti/raw_data.php). The files that need to be downloaded are [synced+rectified data].
+## <a name="CitingFBLNet"></a>Citing FBLNet
 
-<!-- ### **Txt File Description:** <br>
-Each line in the txt file represents the annotation of a specific object in a specific frame image. The annotation information is separated by spaces and includes the following annotation in order.
+If you find our work helpful for your research, please consider citing the following BibTeX entry.
 
-### **Annoatation Description:** <br>
-Image_ID, Object_ID, Object_Bounding_Boxes (xmin, ymin, xmax, ymax), Importance_Level (0 for not important, 1 for important). -->
+```BibTeX
+@inproceedings{chen2023fblnet,
+  title={FBLNet: FeedBack Loop Network for Driver Attention Prediction},
+  author={Chen, Yilong and Nan, Zhixiong and Xiang, Tao},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={13371--13380},
+  year={2023}
+}
+```

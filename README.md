@@ -1,4 +1,4 @@
-<h2 align="center"> FBLNet: FeedBack Loop Network for Driver Attention Prediction</a></h2>
+<h2 align="center"> <a href="https://arxiv.org/abs/2212.02096"> FBLNet: FeedBack Loop Network for Driver Attention Prediction</a></h2>
 <h4 align="center" color="A0A0A0"> Yilong Chen, Zhixiong Nan, Tao Xiang</h4>
 <h5 align="center"> If you like our project, please give us a star ⭐ on GitHub for the latest update.</h5>
 

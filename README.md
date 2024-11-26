@@ -27,7 +27,7 @@ This is the comparison results on [BDDA](https://github.com/pascalxia/driver_att
 </div><br/>
 
 ## Update
-The code for DI-MaskSINO will be released here.
+The code for FBLNet will be released here.
 
 [2023/7] FBLNet has been accepted at ICCV 2023 as a poster!
 
